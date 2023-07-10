@@ -10,6 +10,8 @@ h1 {
   margin-bottom: 20px;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  width: 100%;
   margin-top: 20px;
 }
 
@@ -21,7 +23,7 @@ h1 {
 #title-input,
 #author-input {
   margin-top: 20px;
-  max-width: 30%;
+  width: 20%;
 }
 
 .book-item {
@@ -48,7 +50,10 @@ h1 {
 }
 
 .add-btn {
-  max-width: 15%;
+  width: 15%;
   padding: 15px 20px;
   margin-top: 20px;
+  background-color: #A8F158;
+  border: none;
+  cursor: pointer;
 }
