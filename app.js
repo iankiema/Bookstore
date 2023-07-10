@@ -17,13 +17,12 @@ function renderBooks() {
   bookList.innerHTML = '';
 
   // Render each book in the collection
-
   books.forEach((book, index) => {
     const bookItem = document.createElement('li');
     bookItem.classList.add('book-item');
     bookItem.innerHTML = `
-  <p><span>${book.title}</span> by <span>${book.author}</span></p>
-  <button class="remove-btn" data-index="${index}">Remove</button>
+      <p><span>${book.title}</span> by <span>${book.author}</span></p>
+      <button class="remove-btn" data-index="${index}">Remove</button>
     `;
     bookList.appendChild(bookItem);
   });
