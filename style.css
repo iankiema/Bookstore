@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+#add-form {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+#book-list {
+  list-style: none;
+  padding: 0;
+}
+
+#title-input,
+#author-input {
+  margin-top: 20px;
+  max-width: 30%;
+}
+
+.book-item {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.book-item span {
+  margin-right: 10px;
+}
+
+.remove-btn {
+  background-color: #ff8080;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.add-btn {
+  max-width: 15%;
+  padding: 15px 20px;
+  margin-top: 20px;
+}
