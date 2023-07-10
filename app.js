@@ -19,6 +19,9 @@ function renderBooks() {
   // Render each book in the collection
 
   books.forEach((book, index) => {
+    const bookItem = document.createElement('li');
+  bookItem.classList.add('book-item');
+  
   
 
   // Attach event listeners to remove buttons
