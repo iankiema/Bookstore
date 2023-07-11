@@ -1,5 +1,3 @@
-
-
 /* eslint-disable no-restricted-syntax */
 /* eslint-disable max-classes-per-file */
 // Book class
@@ -32,13 +30,13 @@ class BookCollection {
     bookList.innerHTML = '';
 
     this.books.forEach((book, index) => {
-    const bookItem = document.createElement('li');
-    bookItem.classList.add('book-item');
-    bookItem.innerHTML = `
+      const bookItem = document.createElement('li');
+      bookItem.classList.add('book-item');
+      bookItem.innerHTML = `
     <span>"${book.title}" by ${book.author}</span>
     <button class="remove-btn" data-index="${index}">Remove</button>
      `;
-    bookList.appendChild(bookItem);
+      bookList.appendChild(bookItem);
     });
 
     const removeButtons = document.getElementsByClassName('remove-btn');
