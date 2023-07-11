@@ -28,8 +28,8 @@ class BookCollection {
   }
 
   renderBooks() {
-    // const bookList = document.getElementById('book-list');
-    // bookList.innerHTML = '';
+    const bookList = document.getElementById('book-list');
+    bookList.innerHTML = '';
 
     // this.books.forEach((book, index) => {
     //   const bookItem = document.createElement('li');
