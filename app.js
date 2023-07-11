@@ -38,7 +38,7 @@ class BookCollection {
     <span>"${book.title}" by ${book.author}</span>
     <button class="remove-btn" data-index="${index}">Remove</button>
      `;
-    //   bookList.appendChild(bookItem);
+    bookList.appendChild(bookItem);
     });
 
     const removeButtons = document.getElementsByClassName('remove-btn');
