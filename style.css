@@ -8,7 +8,7 @@ h1 {
 }
 
 h2 {
-    text-align: center;
+  text-align: center;
 }
 
 #add-form {
@@ -59,18 +59,19 @@ h2 {
   width: 15%;
   padding: 15px 20px;
   margin-top: 20px;
-  background-color: #A8F158;
+  background-color: #a8f158;
   border: none;
   cursor: pointer;
-  box-shadow: 0px 0px 10px 1px;
+  box-shadow: 0 0 10px 1px;
   font-size: 20px;
   transition: 0.3s;
 }
+
 .add-btn :hover {
   opacity: 0.6;
 }
 
 .add-btn:active {
-    transform: scale(0.9);
-    box-shadow: 0px 0px 6px 1px;
+  transform: scale(0.9);
+  box-shadow: 0 0 6px 1px;
 }
