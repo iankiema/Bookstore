@@ -1,4 +1,3 @@
-/* eslint-disable no-restricted-syntax */
 /* eslint-disable max-classes-per-file */
 // Book class
 class Book {
@@ -40,7 +39,8 @@ class BookCollection {
     });
 
     const removeButtons = document.getElementsByClassName('remove-btn');
-    for (const removeButton of removeButtons) {
+    for (let i = 0; i < removeButtons.length; i += 1) {
+      const removeButton = removeButtons[i];
       removeButton.addEventListener('click', (event) => {
         const { index } = event.target.dataset;
         this.removeBook(index);
