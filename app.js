@@ -26,17 +26,17 @@ class BookCollection {
   }
 
   renderBooks() {
-    const bookList = document.getElementById('book-list');
-    bookList.innerHTML = '';
+    // const bookList = document.getElementById('book-list');
+    // bookList.innerHTML = '';
 
-    this.books.forEach((book, index) => {
-      const bookItem = document.createElement('li');
-      bookItem.classList.add('book-item');
-      bookItem.innerHTML = `
-        <span>"${book.title}" by ${book.author}</span>
-        <button class="remove-btn" data-index="${index}">Remove</button>
-      `;
-      bookList.appendChild(bookItem);
+    // this.books.forEach((book, index) => {
+    //   const bookItem = document.createElement('li');
+    //   bookItem.classList.add('book-item');
+    //   bookItem.innerHTML = `
+    //     <span>"${book.title}" by ${book.author}</span>
+    //     <button class="remove-btn" data-index="${index}">Remove</button>
+    //   `;
+    //   bookList.appendChild(bookItem);
     });
 
     const removeButtons = document.getElementsByClassName('remove-btn');
