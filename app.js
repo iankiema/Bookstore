@@ -63,7 +63,7 @@ class BookCollection {
       this.books = JSON.parse(storedBooks);
       this.renderBooks();
       }
-  // }
+   }
 }
 
 // Create a book collection instance
