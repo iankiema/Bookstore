@@ -1,3 +1,4 @@
+
 body {
   font-family: Arial, sans-serif;
 }
@@ -6,11 +7,17 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  text-align: center;
+}
+
 #add-form {
   margin-bottom: 20px;
   display: flex;
   flex-direction: column;
-  margin-top: 20px;
+  align-items: center;
+  width: 100%;
+  margin-top: 10px;
 }
 
 #book-list {
@@ -21,7 +28,8 @@ h1 {
 #title-input,
 #author-input {
   margin-top: 20px;
-  max-width: 30%;
+  width: 20%;
+  padding: 10px 15px;
 }
 
 .book-item {
@@ -48,7 +56,22 @@ h1 {
 }
 
 .add-btn {
-  max-width: 15%;
+  width: 15%;
   padding: 15px 20px;
   margin-top: 20px;
+  background-color: #a8f158;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 0 10px 1px;
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+.add-btn :hover {
+  opacity: 0.6;
+}
+
+.add-btn:active {
+  transform: scale(0.9);
+  box-shadow: 0 0 6px 1px;
 }
