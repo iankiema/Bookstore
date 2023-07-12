@@ -34,7 +34,7 @@ h1 {
 }
 
 .navbar a.active {
-  background-color: #4CAF50;
+  background-color: #4caf50;
   color: #fff;
 }
 
@@ -79,7 +79,7 @@ h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .book-item span {
@@ -104,6 +104,7 @@ h1 {
   align-items: center;
   justify-content: center;
 }
+
 #add-form {
   display: flex;
   width: 50%;
@@ -124,7 +125,7 @@ h1 {
 }
 
 #add-form button {
-  background-color: #4CAF50;
+  background-color: #4caf50;
   color: white;
   border: none;
   padding: 10px 15px;
@@ -136,14 +137,15 @@ h1 {
 .contact-section {
   padding-top: 20%;
 }
+
 .contact-info {
   text-align: center;
 }
 
-footer{
+footer {
   position: fixed;
   bottom: 0;
-  background-color:#333;
+  background-color: #333;
   width: 100%;
   margin: auto;
   display: flex;
