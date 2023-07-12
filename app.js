@@ -110,9 +110,6 @@ window.addEventListener('load', () => {
 });
 
 // Attach event listeners to navigation links
-// for (const link of navLinks) {
-//   link.addEventListener('click', switchSection);
-// }
 for (let i = 0; i < navLinks.length; i += 1) {
   const link = navLinks[i];
   link.addEventListener('click', switchSection);
