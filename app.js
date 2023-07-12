@@ -57,12 +57,12 @@ class BookCollection {
     this.renderBooks();
      }
 
-  // loadFromLocalStorage() {
-  //   const storedBooks = localStorage.getItem('books');
-  //   if (storedBooks) {
-  //     this.books = JSON.parse(storedBooks);
-  //     this.renderBooks();
-  //   }
+     loadFromLocalStorage() {
+      const storedBooks = localStorage.getItem('books');
+      if (storedBooks) {
+      this.books = JSON.parse(storedBooks);
+      this.renderBooks();
+      }
   // }
 }
 
