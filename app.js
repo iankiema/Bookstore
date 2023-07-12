@@ -53,9 +53,9 @@ class BookCollection {
 
   saveToLocalStorage() {
 
-  //   localStorage.setItem('books', JSON.stringify(this.books));
-  //   this.renderBooks();
-  // }
+    localStorage.setItem('books', JSON.stringify(this.books));
+    this.renderBooks();
+     }
 
   // loadFromLocalStorage() {
   //   const storedBooks = localStorage.getItem('books');
