@@ -7,22 +7,60 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+        <header>
+          <div class="navbar">
+            <div class="logo">
+              <h2>Awesome Books</h2>
+            </div>
+            <div class="link-container">
+                <a class="nav-link active" href="#" data-section="books">Books</a>
+                <a class="nav-link" href="#" data-section="add-book">Add Book</a>
+                <a class="nav-link" href="#" data-section="contact-info">Contact Info</a>
+            </div>
+
+          </div>
+        </header>
+
+        <section>
+          <div id="books-section" class="content-section active">
+            <h1>All Awesome Books</h1>
+            <ul id="book-list"></ul>
+          </div>
+        </section>
 
 
-    <h1>All awesome books</h1>
-    <ul id="book-list"></ul>
+      <section id="add-book">
+        <div id="add-book-section" class="content-section">
+          <h1>Add a new book</h1>
+          <form id="add-form">
 
-    <h2>Add a new book</h2>
-    <form id="add-form">
+            <input type="text" id="title-input" placeholder="Title" required>
+            <input type="text" id="author-input" placeholder="Author" required>
 
-        <input type="text" id="title-input" placeholder="Title" required>
-        <input type="text" id="author-input" placeholder="Author" required>
-
-        <button class="add-btn" type="submit">Add</button>
-    </form>
-
+            <button type="submit">Add</button>
+          </form>
+        </div>
+      </section>
 
 
-    <script src="app.js"></script>
+      <section id="contact">
+        <div id="contact-info-section" class="content-section">
+          <h1>Contact information</h1>
+          <div class="contact-info">
+            <p>Do you have any questions or you just want to say "Hello" <br> You can reach out to me!</p>
+            <p>Email: <a href="">kiemaian.ik@gmail.com</a></p>
+            <p>Phone: +254 725 285803</p>
+          </div>
+        </div>
+      </section>
+
+
+      <footer>
+        <div class="footer-div">
+            <p>Copyright:CIZZLA</p>
+        </div>
+      </footer>
+
+      <script src="app.js"></script>
 </body>
 </html>
